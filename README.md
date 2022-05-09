@@ -3,7 +3,13 @@
 This is the footprint we can use to start any service based on python from. It's optional but will save us a lot of time.
 
 # Instructions
-
+* Clone this repository:
+```
+$ git clone git@github.com:MLOPS-Capstone/Service-Boilerplate myrepo-new
+$ cd myrepo-new
+$ git remote set-url origin git@github.com:MLOPS-Capstone/myrepo-new
+$ git push origin master
+```
 * Edit the .env file and adjust variables accordingly
 * Create a Python environment locally and install only the necessary libraries to keep the image as small as possible.
 * Review Dockerfile to select the most appropriate image. Now we are using Python:3 (pretty slim!)
