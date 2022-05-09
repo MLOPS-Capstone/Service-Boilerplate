@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(1, './app')
+sys.path.insert(1, './src')
 
 from fastapi import FastAPI, status
 from fastapi.responses import HTMLResponse
