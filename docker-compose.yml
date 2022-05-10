@@ -1,8 +1,8 @@
 version: "3.9"
 services:
   service:
-    image: MLOPS-Capstone/$(IMAGE_NAME) 
+    image: "capstone-tradingbot/${IMAGE_NAME}"
     ports:
       - "8000:8000" 
     volumes:
-      - ./app:/usr/src/app  
+      - ./src:/usr/src/app/src
