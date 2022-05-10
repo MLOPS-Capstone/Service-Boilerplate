@@ -5,6 +5,7 @@ build:
 	docker build . -t $(IMAGE_REPOSITORY)/$(IMAGE_NAME)
 
 run:
+start:
 	docker-compose up -d --build
 	docker-compose logs -f --tail=20
 
